@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pandas
+tldextract
+sentence-transformers
+torch
+scikit-learn
+transformers
