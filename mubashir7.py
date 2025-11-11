@@ -222,7 +222,7 @@ async def analyze(email_text: str = Form(...)):
 
 # ---------- 8. LAUNCH ----------
 if __name__ == "__main__":
-    print("\n🌐 FastAPI Phishing Detector running...")
-    uvicorn.run(app, host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
-
-
+    import os
+    port = int(os.environ.get("PORT", 10000))
+    import uvicorn
+    uvicorn.run("mubashir7:app", host="0.0.0.0", port=port)
