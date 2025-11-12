@@ -226,3 +226,4 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", 10000))
     import uvicorn
     uvicorn.run("mubashir7:app", host="0.0.0.0", port=port)
+
